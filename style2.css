@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("./bg.png");
+    background-size: cover;
+    background-position: left top;
+    font-family: "Zilla Slab", serif;
+  }
+  
+.heading{
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.box-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+.questions{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.answer{
+    color: rgb(201, 196, 196);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    border: 1px solid #9dffad;
+    padding: 10px;
+    margin-bottom: 40px;
+
+}
+
+span{
+    color: rgb(178, 124, 124);
+}
+strong{
+    color: #9dffad;
+}
+.list{
+    text-align: start;
+    margin-left: 40px;
+}
