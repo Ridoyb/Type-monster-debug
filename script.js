@@ -138,3 +138,11 @@ setInterval(() => {
 
   document.getElementById("show-time").innerHTML = `${startTime ? timeSpent : 0} seconds`;
 }, 1000);
+
+
+window.onkeydown = function(e) {
+  var elem = e.target.nodename;
+  if( elem !== 'TEXTAREA' && elem != 'INPUT' ) {
+      return !(e.keyCode == 32);
+  }
+};
